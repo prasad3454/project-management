@@ -14,27 +14,12 @@ public class Project {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long pid;
-//	@NotBlank(message = "Enter a valid Project Name")
-//	@Size(min = 2,max = 30, message = "project name must be 2 to 30")
 	private String projName;
-	
-//	@NotBlank(message = "Enter a valid Employee Name")
-//	@Size(min = 2,max = 20,message = "Employee name must be 2 to 20")
 	private String empName;
-	
-//	@NotBlank(message = "Enter a valid Employee role")
 	private String role;
-//	@NotBlank(message = "Enter a valid Project start date")
 	private LocalDate startDate;
-	
-//	@NotBlank(message = "Enter a valid Project end date")
 	private LocalDate endDate;
-	
-//	@NotBlank(message = "Enter a valid Employee project status")
 	private String status;
-	
-//	@NotBlank(message = "Enter a valid Employee email")
-//	@Pattern(regexp = "^(?=.{1,64}@)[A-Za-z0-9_-]+(\\\\.[A-Za-z0-9_-]+)*@[^-][A-Za-z0-9-]+(\\\\.[A-Za-z0-9-]+)*(\\\\.[A-Za-z]{2,})$")
 	private String email;
 	
 	public Long getPid() {

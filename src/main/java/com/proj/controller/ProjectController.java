@@ -24,7 +24,7 @@ import com.proj.entities.Project;
 import com.proj.service.ProjectService;
 import jakarta.servlet.http.HttpServletResponse;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3001")
 @Controller
 //@RequestMapping("/api/demo")
 public class ProjectController {
